@@ -11,4 +11,4 @@ Weather Application made using Java Springboot and third party APIs like ipinfo 
 
 
 
-![image](https://github.com/Ananya46Nigam/Weather_Application/assets/80421780/c2f259c4-59c3-471b-802c-11bf4f816ab9)
+![image](https://github.com/Ananya46Nigam/Weather_Application/assets/80421780/c42853f6-902d-4ff1-bb02-2c436ae5c727)
