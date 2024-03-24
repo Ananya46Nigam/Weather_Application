@@ -51,6 +51,7 @@
         <div th:if="${weatherData != null}">
             <button onclick="showWeather()">Check Weather At My Location</button>
             <div id="weatherData" style="display: none;">
+		<p> My City  ~ <span th:text="${city}"></span></p>
                 <p>Temperature ~ <span th:text="${weatherData.main.temp}"></span> Kelvin</p>
                 <p>Sky ~ <span th:text="${weatherData.weather[0].description}"></span></p>
                 <p>Feels Like ~ <span th:text="${weatherData.main.feels_like}"></span> Kelvin</p>

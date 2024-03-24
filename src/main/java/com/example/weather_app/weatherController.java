@@ -54,6 +54,7 @@ public class weatherController {
             ResponseEntity<Response> responseEntity = new RestTemplate().getForEntity(apiUrl, Response.class);
 //            System.out.println("\n"+responseEntity);
 //            System.out.println("\n"+responseEntity.getBody());
+            model.addAttribute("city", city);
             model.addAttribute("weatherData", responseEntity.getBody());
         } catch (Exception ex) {
             model.addAttribute("errorMessage", "An error occurred: " + ex.getMessage());
