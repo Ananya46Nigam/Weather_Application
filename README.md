@@ -1,5 +1,5 @@
 # Weather_Application
-Weather Application made using Java Springboot and third party APIs like ipinfo for location and openweathermap for getting weather details
+Weather Application made using Java Springboot and third party APIs like ipify for getting public ip address, ipinfo for getting current location and openweathermap for getting weather details at the current location
 
 
 ![image](https://github.com/Ananya46Nigam/Weather_Application/assets/80421780/37519c6e-0f5b-4397-a228-75f637321a90)
